@@ -209,3 +209,7 @@ automatically-unhide-macos-hidden-apps = false
 [[on-window-detected]]
 if.app-id = 'com.googlecode.iterm2'
 run = "move-node-to-workspace T"
+
+[[on-window-detected]]
+if.app-id = 'com.tinyspeck.slackmacgap'
+run = "move-node-to-workspace S"
